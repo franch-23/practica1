@@ -1,0 +1,39 @@
+
+h1{
+    width:300px;
+	padding:16px; 
+    border-radius:10px;
+    margin:auto;
+	background-color:#ccc;
+    text-align: center;
+}
+
+fieldset{
+    width:300px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color:#ccc;
+}
+fieldset legend{
+    
+    margin:auto;
+}
+fieldset input{
+	border:1px solid #f6f6f6;
+	background-color:#f6f6f6;
+	border-radius:3px;
+	
+}
+fieldset button{
+    width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+    cursor:pointer;
+}
+

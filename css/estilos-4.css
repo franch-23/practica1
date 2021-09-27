@@ -1,0 +1,63 @@
+p{
+    color: black;
+   
+    
+}
+#parrafo1{
+    color: black;
+    
+}
+#parrafo2{
+    color: black;
+}
+#parrafo3{
+    color: black;
+}
+#parrafo4{
+    color: black;
+}
+#parrafo5{
+    color: black;
+}
+h3{
+    text-align: center;
+}
+h1{
+    width:300px;
+	padding:16px; 
+    border-radius:10px;
+    margin:auto;
+	background-color:#ccc;
+    text-align: center;
+}
+h2{
+    width:300px;
+	padding:16px; 
+    border-radius:10px;
+    margin:auto;
+	background-color:rgb(51, 51, 51);
+    text-align: center; 
+    color: white;
+}
+
+h3 strong a{
+    width:300px;
+	padding:16px; 
+    border-radius:10px;
+    margin:auto;
+	background-color:rgb(146, 146, 146);
+    text-align: center; 
+    
+}
+div{
+    margin:auto; 
+    text-align: center; 
+    border-radius:10px;
+    padding:16px; 
+    width:300px;
+    
+}
+p a{
+    color: black;
+   
+}

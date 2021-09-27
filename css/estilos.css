@@ -1,20 +1,35 @@
-ul {
+ul{
     list-style-type: none;
     margin: 30px;
     padding: 15px;
     overflow: hidden;
     background-color: #333;
+    cursor: pointer;
 }
 a {
     float: left;
     border-right:1px solid rgb(255, 255, 255);
+    color:rgb(245, 244, 243) ;
+    
 }
-ul a {
+
+ul a:hover{
+    background-color: darkgoldenrod;
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
+    text-decoration: none;  
+   
+}
+nav ul{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;  
     
 }
+
+
 

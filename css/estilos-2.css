@@ -1,0 +1,27 @@
+h1{
+    width:300px;
+	padding:16px; 
+    border-radius:10px;
+    margin:auto;
+	background-color:#ccc;
+    text-align: center;
+}
+
+h2{
+    width:300px;
+	padding:16px; 
+    border-radius:10px;
+    margin:auto;
+	background-color:rgb(51, 51, 51);
+    text-align: center; 
+    color: white;
+}
+
+table, th, td {
+    border: 1px solid rgb(255, 254, 254);
+    margin:auto;
+    height: 50px;
+    width: 500px;
+    background-color: rgb(48, 47, 47);
+    color :rgb(253, 253, 253)
+  }
