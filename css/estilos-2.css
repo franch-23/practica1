@@ -1,3 +1,4 @@
+
 h1{
     width:300px;
 	padding:16px; 
@@ -25,3 +26,8 @@ table, th, td {
     background-color: rgb(48, 47, 47);
     color :rgb(253, 253, 253)
   }
+
+  body{
+    background-image: url("../moto3.gif");
+	background-repeat: repeat;
+}

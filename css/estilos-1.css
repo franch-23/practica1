@@ -37,3 +37,7 @@ fieldset button{
     cursor:pointer;
 }
 
+body{
+    background-image: url("../moto2.gif");
+	background-repeat: repeat;
+}

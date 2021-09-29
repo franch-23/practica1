@@ -1,3 +1,4 @@
+
 h1{
     width:300px;
 	padding:16px; 
@@ -24,4 +25,10 @@ fieldset button{
 	color:#fff;
 	background-color:#000;
     cursor:pointer;
+}
+
+body{
+    background-image: url("../moto.gif");
+	background-repeat: no-repeat;
+	background-size: 100%;
 }
