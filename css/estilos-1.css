@@ -7,13 +7,16 @@ h1{
 	background-color:#ccc;
     text-align: center;
 }
-
 fieldset{
-    width:300px;
-	padding:16px;
-	border-radius:10px;
-	margin:auto;
-	background-color:#ccc;
+	display: grid;
+	text-align: center;
+	padding: 1em;
+	background: #302e2e;
+	border: 1px solid #c1c1c1;
+	margin: 2rem auto 0 auto;
+	max-width: 600px;
+	padding: 1em;
+	color: rgb(255, 254, 254);
 }
 fieldset legend{
     
