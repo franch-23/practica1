@@ -10,34 +10,32 @@
     
 </head>
 <body>
-
-        
         <ul>
             <a href="practica_2.html">PAGINA2</a>
             <a href="practica_3.html">PAGINA3</a>
             <a href="practica_4.html">PAGINA4</a>
             <a href="practica_5.html">PAGINA5</a> 
         </ul>
-        
 
         <h1>Formulario</h1>
-        
-           
-        <fieldset>
 
-        <legend>Datos personales</legend>
-        <p>Nombre:<input type="text" name="Nombre"></p>
-        <p>Apellidos:<input type="text" name="Apellidos"></p>
-        <p>Telefono:<input type="numero" name="Telefono"></p>
-        <p>Email:<input type="text"></p>
-        <p>Contraseña:<input type="text"></p>
-        <p><input type="radio" name="sexo" value="h">Hombre<input type="radio" name="sexo" value="m">Mujer</p>
-        <button type="submit">enviar</button> 
+            <form action="ws/crearUsuario.php" method="post">
 
-       
-       
-    </fieldset>
+             <fieldset>
 
+                 <legend>Datos personales</legend>
+
+            <p>Nombre:<input type="text" name="Nombre"></p>
+            <p>Apellidos:<input type="text" name="Apellidos"></p>
+            <p>Telefono:<input type="numero" name="Telefono"></p>
+            <p>Email:<input type="text"></p>
+            <p>Contraseña:<input type="text"></p>
+            <p><input type="radio" name="sexo" value="h">Hombre<input type="radio" name="sexo" value="m">Mujer</p>
+
+                <button type="submit">enviar</button>
+
+            </fieldset>
+            </form>
        
 </body>
 </html>
