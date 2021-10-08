@@ -90,6 +90,6 @@ class User implements IToJson {
 
     public function ToJson()
     {
-       return json_encode($this->getnombre, $this->getapellido, $this->gettelefono, $this->getemail, $this->getcontraseña, $this->getsexo);
+       return json_encode([$this->getnombre, $this->getapellido, $this->gettelefono, $this->getemail, $this->getcontraseña, $this->getsexo]);
     }
 }
