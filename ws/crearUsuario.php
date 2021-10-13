@@ -10,14 +10,17 @@ $telefono=$_POST['telefono'];
 $email=$_POST['email'];
 $sexo=$_POST['sexo_r'];
 
-$usuario = new User("fran","romero",645717349,"franciscoballesta4@gmail.com","fran","hombre");
+$usuario = new User("$nombre","$apellido",$telefono,"$email","$contraseña","$sexo");
+
+$archivo = fopen('archivo.txt','a');
+fwrite($archivo, "nombre:".$usuario->nombre.PHP_EOL);
+fwrite($archivo, "apellido:".$usuario->apellido.PHP_EOL);
+fwrite($archivo, "telefono:".$usuario->telefono.PHP_EOL);
+fwrite($archivo, "email:".$usuario->email.PHP_EOL);
+fwrite($archivo, "contraseña:".$usuario->contraseña.PHP_EOL);
+fwrite($archivo, "sexo:".$usuario->sexo.PHP_EOL);
+fclose($archivo);
 
 echo json_encode($usuario);
-"<br>";
-echo ("nombre:").$nombre."<br>";
-echo ("apellido:").$apellido."<br>";
-echo ("contraseña:").$contraseña."<br>";
-echo ("telefono:").$telefono."<br>";
-echo ("email:").$email."<br>";
-echo ("sexo:").$sexo."<br>";
+
 

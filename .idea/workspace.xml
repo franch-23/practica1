@@ -5,9 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb3e59e0-8c5b-407d-8694-ddc1144d2846" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ws/models/archivo.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/practica.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/practica.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coche1.png" beforeDir="false" afterPath="$PROJECT_DIR$/coche1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coche2.png" beforeDir="false" afterPath="$PROJECT_DIR$/coche2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coche3.png" beforeDir="false" afterPath="$PROJECT_DIR$/coche3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/estilos-1.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/estilos-1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/estilos-2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/estilos-2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/estilos-3.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/estilos-3.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/estilos-4.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/estilos-4.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/estilos-5.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/estilos-5.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/estilos.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/estilos.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moto.gif" beforeDir="false" afterPath="$PROJECT_DIR$/moto.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moto1.png" beforeDir="false" afterPath="$PROJECT_DIR$/moto1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moto2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/moto2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moto2.png" beforeDir="false" afterPath="$PROJECT_DIR$/moto2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moto3.gif" beforeDir="false" afterPath="$PROJECT_DIR$/moto3.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/practica_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/practica_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practica_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/practica_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practica_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/practica_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practica_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/practica_4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practica_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/practica_5.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ws/crearUsuario.php" beforeDir="false" afterPath="$PROJECT_DIR$/ws/crearUsuario.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ws/interfaces/IToJson.php" beforeDir="false" afterPath="$PROJECT_DIR$/ws/interfaces/IToJson.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ws/models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/ws/models/User.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +46,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1z8uWjjwSOHHGsrIyvH3QdaJmgX" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -38,6 +65,12 @@
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ws/models" />
+      <recent name="$PROJECT_DIR$/ws" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -49,6 +82,8 @@
       <workItem from="1633542071937" duration="31000" />
       <workItem from="1633542123308" duration="6967000" />
       <workItem from="1633701541892" duration="3702000" />
+      <workItem from="1634139143915" duration="3130000" />
+      <workItem from="1634143511663" duration="2000" />
     </task>
     <servers />
   </component>
