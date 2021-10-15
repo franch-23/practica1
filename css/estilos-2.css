@@ -18,13 +18,20 @@ h2{
     color: white;
 }
 
-table, th, td {
+table, tr, td {
     border: 1px solid rgb(255, 254, 254);
     margin:auto;
     height: 50px;
     width: 500px;
     background-color: rgb(48, 47, 47);
     color :rgb(253, 253, 253)
+  }
+  td{
+   
+      text-align: center;
+  }
+  #buscador{
+      background-color:#ccc;
   }
 
   body{

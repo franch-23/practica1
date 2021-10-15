@@ -46,3 +46,15 @@ telefono:757484848
 email:franciscoballesta4@gmail.com
 contraseña:aaaaaa
 sexo:femenino
+nombre:
+apellido:
+telefono:
+email:
+contraseña:
+sexo:
+nombre:edrt
+apellido:retrth
+telefono:rgbhtn
+email:rbgthn
+contraseña:erbht
+sexo:femenino

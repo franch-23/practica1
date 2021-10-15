@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/estilos.css" rel="stylesheet">
     <link href="css/estilos-2.css" rel="stylesheet">
+   
+
     <title>Practica 2</title>
 </head>
-<body>
-
+<body id="dsTable">
+    
     <ul>
         <a href="practica_1.html">PAGINA1</a>
         <a href="practica_3.html">PAGINA3</a>
@@ -18,19 +21,30 @@
     </ul>
 
     <h1>Tabla</h1>
-        <h2>Pagina_2</h2>
-  
-<br><table>
-	<tr><th>categoria</th><th>Marca</th><th>Modelo</th><th>precio</th></tr>
-	
-	<tr><th rowspan="3">Coches</th><th>Mercedes</th><th>clase e coupe</th><th>56000</th></tr>
-	<tr><th>Audi<th>a3</th><th>28000€</th></th></tr>
-	<tr><th>BMW<th>X5</th><th>69000€</th></th></tr>
-	
-	<tr><th rowspan="2">Motos</th><th>Honda<th>CBR1000R</th><th>15000€</th></th></tr>
-	<tr><th>Yamaha<th>R1</th><th>21000€</th></th></tr>
 
-</table>
-  
+        <h2>Pagina_2</h2>
+
+  <input type="text" id="buscador" name="Buscardor">
+  <input type="submit">
+
+  <script src="js/datos.js"></script>
+<table id = 'dsTable' >
+    <tr>
+       <td> Manuel </td>
+       <td> Jimenez </td>
+       <td> 645717349 </td>
+       <td>manuel@gmail.com</td>
+       <td> <input type="button" id ="deleteDep" value="Delete" onclick = "deleteRow(this)"  </td>
+    </tr>
+     <tr>
+       <td> Roberto </td>
+       <td> Martinez </td>
+       <td> 645717349</td>
+       <td>roberto@gmail.com</td>
+       <td>  <input type="button" id ="deleteDep" value="Delete" onclick = "deleteRow(this)" </td>
+    </tr>
+ </table>
+
+
 </body>
 </html>
