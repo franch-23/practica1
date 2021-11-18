@@ -58,3 +58,9 @@ telefono:rgbhtn
 email:rbgthn
 contraseña:erbht
 sexo:femenino
+nombre:cvbnm
+apellido:
+telefono:
+email:
+contraseña:
+sexo:

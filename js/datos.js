@@ -1,76 +1,101 @@
 
-let table = document.createElement('table');
-let thead = document.createElement('thead');
-let tbody = document.createElement('tbody');
+var lista = [
+    {id:"0", nombre: "fran" , apellido:"Romero" , email:"francisco@gmail.com" , telefono:"645717349"},
+    {id:"1", nombre: "Luis" , apellido:"Romero" , email:"francisco@gmail.com" , telefono:"645717349"},
+    {id:"2", nombre: "Mario" , apellido:"Romero" , email:"francisco@gmail.com" , telefono:"645717349"},
+    {id:"3", nombre: "Pepe" , apellido:"Romero" , email:"francisco@gmail.com" , telefono:"645717349"}
+];
+
+window.onload=function(){
+    let table = document.querySelector('#table');
+
+    cuerpo();
+}
 
 
-table.appendChild(thead);
-table.appendChild(tbody);
+function cabezera(){
+
+    let Acciones = document.createElement("th");
+    Acciones.innerHTML="Acciones";
+
+    let Nombre = document.createElement("th");
+    Nombre.innerHTML="Nombre";
+
+    let Apellidos = document.createElement("th");
+    Apellidos.innerHTML="Apellidos";
+
+    let email = document.createElement("th");
+    email.innerHTML="email";
+
+    let telefono = document.createElement("th");
+    telefono.innerHTML="telefono";
+
+    let fila = document.createElement("tr");
+
+    fila.appendChild(Acciones);
+    fila.appendChild(Nombre);
+    fila.appendChild(Apellidos);
+    fila.appendChild(email);
+    fila.appendChild(telefono);
+    
+    table.appendChild(fila);
+}
 
 
-document.getElementById('dsTable').appendChild(table);
+function cuerpo(){
+    cabezera();
 
+    let tr;
+    let td;
 
-let row_1 = document.createElement('tr');
-let heading_1 = document.createElement('th');
-heading_1.innerHTML = "Nombre";
-let heading_2 = document.createElement('th');
-heading_2.innerHTML = "Apellido";
-let heading_3 = document.createElement('th');
-heading_3.innerHTML = "Telefono";
-let heading_4 = document.createElement('th');
-heading_4.innerHTML = "Email";
-let heading_5 = document.createElement('th');
-heading_5.innerHTML = "Acciones";
+    for(let i of lista){
+        tr=document.createElement("tr");
+        td=document.createElement("td");
 
+        td.appendChild(BotonBorrar());
+        td.appendChild(BotonModificar());
+        tr.appendChild(td);
 
+        td = document.createElement("td");
+        td.innerHTML=i.nombre;
+        tr.appendChild(td);
 
-row_1.appendChild(heading_1);
-row_1.appendChild(heading_2);
-row_1.appendChild(heading_3);
-row_1.appendChild(heading_4);
-row_1.appendChild(heading_5);
-thead.appendChild(row_1);
+        td = document.createElement("td");
+        td.innerHTML=i.apellido;
+        tr.appendChild(td);
 
+        td = document.createElement("td");
+        td.innerHTML=i.email;
+        tr.appendChild(td);
 
+        td = document.createElement("td");
+        td.innerHTML=i.telefono;
+        tr.appendChild(td);
 
-let row_2 = document.createElement('tr');
-let row_2_data_1 = document.createElement('td');
-row_2_data_1.innerHTML = "Fran";
-let row_2_data_2 = document.createElement('td');
-row_2_data_2.innerHTML = "Romero";
-let row_2_data_3 = document.createElement('td');
-row_2_data_3.innerHTML = "645717349";
-let row_2_data_4 = document.createElement('td');
-row_2_data_4.innerHTML = "franciscoballedta4@gmail.com";
+        table.appendChild(tr);
+        
+    }
+}
 
+ function BotonBorrar(){
+     let button = document.createElement("button")
+     button.innerHTML="Borrar";
+    
 
-row_2.appendChild(row_2_data_1);
-row_2.appendChild(row_2_data_2);
-row_2.appendChild(row_2_data_3);
-row_2.appendChild(row_2_data_4);
-tbody.appendChild(row_2);
+     button.addEventListener("click",(event) => {
+        event.target.parentNode.parentNode.remove()
+    })
 
-
-let row_3 = document.createElement('tr');
-let row_3_data_1 = document.createElement('td');
-row_3_data_1.innerHTML = "Mario";
-let row_3_data_2 = document.createElement('td');
-row_3_data_2.innerHTML = "Romero";
-let row_3_data_3 = document.createElement('td');
-row_3_data_3.innerHTML = "66728463";
-let row_3_data_4 = document.createElement('td');
-row_3_data_4.innerHTML = "marioromero4@gmail.com";
-
-
-
-row_3.appendChild(row_3_data_1);
-row_3.appendChild(row_3_data_2);
-row_3.appendChild(row_3_data_3);
-row_3.appendChild(row_3_data_4);
-tbody.appendChild(row_3);
-
-function deleteRow(row){
-    var d = row.parentNode.parentNode.rowIndex;
-    document.getElementById('dsTable').deleteRow(d);
+    return button;
  }
+ 
+ function BotonModificar(){
+    let button = document.createElement("button")
+    button.innerHTML="Modificar";
+    return button;
+
+   
+}
+
+
+

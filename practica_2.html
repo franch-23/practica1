@@ -7,18 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/estilos.css" rel="stylesheet">
     <link href="css/estilos-2.css" rel="stylesheet">
+    <script src="js/datos.js"></script>
+    <script src="js/nav.js"></script>
    
-
     <title>Practica 2</title>
 </head>
-<body id="dsTable">
-    
-    <ul>
-        <a href="practica_1.html">PAGINA1</a>
-        <a href="practica_3.html">PAGINA3</a>
-        <a href="practica_4.html">PAGINA4</a>
-        <a href="practica_5.html">PAGINA5</a> 
-    </ul>
+
+    <header>
+    </header>
 
     <h1>Tabla</h1>
 
@@ -27,24 +23,8 @@
   <input type="text" id="buscador" name="Buscardor">
   <input type="submit">
 
-  <script src="js/datos.js"></script>
-<table id = 'dsTable' >
-    <tr>
-       <td> Manuel </td>
-       <td> Jimenez </td>
-       <td> 645717349 </td>
-       <td>manuel@gmail.com</td>
-       <td> <input type="button" id ="deleteDep" value="Delete" onclick = "deleteRow(this)"  </td>
-    </tr>
-     <tr>
-       <td> Roberto </td>
-       <td> Martinez </td>
-       <td> 645717349</td>
-       <td>roberto@gmail.com</td>
-       <td>  <input type="button" id ="deleteDep" value="Delete" onclick = "deleteRow(this)" </td>
-    </tr>
- </table>
-
-
+  <table id="table"></table>
+  
+  
 </body>
 </html>
