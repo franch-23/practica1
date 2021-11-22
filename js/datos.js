@@ -92,10 +92,42 @@ function cuerpo(){
  function BotonModificar(){
     let button = document.createElement("button")
     button.innerHTML="Modificar";
-    return button;
 
-   
+    button.addEventListener("click",(event) => {
+        alert(" seguro que quieres modificar ");
+        modificar();
+    })
+   return button; 
 }
+
+
+
+
+function enviar(){
+    
+    
+    var nombre = document.getElementById("nombre");
+    var apellido = document.getElementById("apellido");
+    var email = document.getElementById("email");
+    var telefono = document.getElementById("telefono");
+    var table = document.getElementById("table");
+    var table = table.insertRow(-1);
+    table = table.insertCell(0)
+     
+
+    var datos = " " + nombre.value + " "+ apellido.value +" "+ email.value +" "+ telefono.value +" ";
+    table.innerHTML= datos ;
+
+    console.log(nombre);
+    
+}
+
+function modificar(){
+    let form=document.getElementById("modificar");
+    form.style.display="block";
+}
+
+
 
 
 

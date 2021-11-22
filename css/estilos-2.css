@@ -39,3 +39,18 @@ table, tr, td {
     background-image: url("../moto3.gif");
 	background-repeat: repeat;
 }
+div{
+    display: grid;
+	text-align: center;
+	padding: 1em;
+	background: #302e2e;
+	border: 1px solid #c1c1c1;
+	margin: 2rem auto 0 auto;
+	max-width: 600px;
+	padding: 1em;
+	color: rgb(255, 254, 254);
+}
+
+#modificar{
+    display: none;
+}
