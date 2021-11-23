@@ -3,10 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">s
     <link href="css/estilos.css" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap/bootstrap/css/bootstrap.min.css">
     <link href="css/estilos-1.css" rel="stylesheet">
     <script src="js/nav.js"></script>
+    <script src="bootstrap/bootstrap/js/bootstrap.min.js"></script>
+
     <title>Practica 1</title>
     
 </head>
@@ -16,26 +19,26 @@
 
         <h1>Formulario</h1>
 
-            <form action="ws/crearUsuario.php" method="post">
+            <form class="needs-validation"action="ws/crearUsuario.php" method="post" novalidate>
 
 
              <fieldset>
                  <legend>Datos personales</legend>
 
-                 <label for="nombre">Nombre</label>
-                 <input type="text" id="nombre" name="nombre"><br>
+                 <label for="nombre" class="form-label">Nombre</label>
+                 <input class="form-control" type="text" id="nombre" name="nombre" ><br>
 
-                 <label for="apellido">Apellido</label>
-                 <input type="text" id="apellido" name="apellido"><br>
+                 <label for="apellido" class="form-label">Apellido</label>
+                 <input class="form-control" type="text" id="apellido" name="apellido"><br>
 
                  <label for="contraseña">Contraseña</label>
-                 <input type="text" id="contraseña" name="contraseña"><br>
+                 <input class="form-control" type="text" id="contraseña" name="contraseña"><br>
 
-                 <label for="telefono">Telefono</label>
-                 <input type="text" id="telefono" name="telefono"><br>
+                 <label for="telefono" class="form-label">Telefono</label>
+                 <input class="form-control"type="text" id="telefono" name="telefono"><br>
 
-                 <label for="email">Email</label>
-                 <input type="text" id="email" name="email"><br>
+                 <label for="email"class="form-label">Email</label>
+                 <input class="form-control" type="text" id="email" name="email"><br>
 
                  <div>Sexo</div>
 
@@ -45,7 +48,7 @@
                  <input type="radio" id="femenino" name="sexo_r" value="femenino">
                  <label for="femenino">Femenino</label><br>
 
-                 <input type="submit">
+                 <input class= "btn btn-warning fw-bold" type="submit">
 
             </fieldset>
             </form>

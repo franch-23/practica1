@@ -79,10 +79,12 @@ function cuerpo(){
 
  function BotonBorrar(){
      let button = document.createElement("button")
-     button.innerHTML="Borrar";
-    
+     let i = document.createElement("i");
+     i.setAttribute("class","fas fa-user-times");
+     button.appendChild(i);
 
      button.addEventListener("click",(event) => {
+        alert(" seguro que quieres borrar ");
         event.target.parentNode.parentNode.remove()
     })
 
@@ -91,7 +93,9 @@ function cuerpo(){
  
  function BotonModificar(){
     let button = document.createElement("button")
-    button.innerHTML="Modificar";
+    let i = document.createElement("i");
+     i.setAttribute("class","far fa-edit");
+     button.appendChild(i);
 
     button.addEventListener("click",(event) => {
         alert(" seguro que quieres modificar ");
@@ -99,9 +103,6 @@ function cuerpo(){
     })
    return button; 
 }
-
-
-
 
 function enviar(){
     
@@ -130,4 +131,20 @@ function modificar(){
 
 
 
+(function () {
+    'use strict'
 
+    var forms = document.querySelectorAll('.needs-validation')
+  
+    Array.prototype.slice.call(forms)
+      .forEach(function (form) {
+        form.addEventListener('submit', function (event) {
+          if (!form.checkValidity()) {
+            event.preventDefault()
+            event.stopPropagation()
+          }
+  
+          form.classList.add('was-validated')
+        }, false)
+      })
+  })()

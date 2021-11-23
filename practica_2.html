@@ -5,8 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/bootstrap/css/bootstrap.min.css">
     <link href="css/estilos.css" rel="stylesheet">
     <link href="css/estilos-2.css" rel="stylesheet">
+    <script src="bootstrap/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/4c8eb2f2ce.js" crossorigin="anonymous"></script>
     <script src="js/datos.js"></script>
     <script src="js/nav.js"></script>
    
@@ -20,29 +23,36 @@
 
         <h2>Pagina_2</h2>
 
-  <input type="text" id="buscador" name="Buscardor">
-  <input type="submit">
+<nav class="navbar navbar-light bg-light">      
+<fomr class="d-flex">
+<input class="form-control me-2" type="text" id="buscador" name="Buscardor" >
+<button class="btn btn-outline-success" type="submit"><i class="fas fa-search"></i></button>
+</fomr>
+</nav> 
 
-  <table id="table"></table>
+  <table class="table table-warning table-striped" id="table"></table>
+ 
 
-  <form>
+  
   <div id="modificar">
     <legend>Modificar Usuarios</legend>
 
     <label for="nombre">Nombre</label>
-    <input type="text" id="nombre" name="nombre"><br>
+    <input class="form-control" type="text" id="nombre" name="nombre"><br>
 
     <label for="apellido">Apellido</label>
-    <input type="text" id="apellido" name="apellido"><br>
+    <input class="form-control" type="text" id="apellido" name="apellido"><br>
 
     <label for="email">Email</label>
-    <input type="text" id="email" name="email"><br>
+    <input class="form-control" type="text" id="email" name="email"><br>
 
     <label for="telefono">Telefono</label>
-    <input type="text" id="telefono" name="telefono"><br>
+    <input class="form-control" type="text" id="telefono" name="telefono"><br>
 
-    <input type="submit" value="Modificar" onclick="enviar()">
+    <button class= "btn btn-warning fw-bold" type="submit" value="" onclick="enviar()"><i class="fas fa-save"></i></button>
+
+</div>
 </form>
-  </div>
+ 
 </body>
 </html>
