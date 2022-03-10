@@ -84,8 +84,18 @@ function cuerpo(){
      button.appendChild(i);
 
      button.addEventListener("click",(event) => {
-        alert(" seguro que quieres borrar ");
+       
+        Swal.fire({
+            title: 'Borrado',
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'si quiero borrar!'
+          })  
+
         event.target.parentNode.parentNode.remove()
+
     })
 
     return button;
@@ -98,8 +108,16 @@ function cuerpo(){
      button.appendChild(i);
 
     button.addEventListener("click",(event) => {
-        alert(" seguro que quieres modificar ");
         modificar();
+
+        Swal.fire({
+            title: 'Seguro que quiere modificar?',
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'si quiero modificra!'
+          })  
     })
    return button; 
 }
@@ -126,25 +144,6 @@ function enviar(){
 function modificar(){
     let form=document.getElementById("modificar");
     form.style.display="block";
+
 }
 
-
-
-
-(function () {
-    'use strict'
-
-    var forms = document.querySelectorAll('.needs-validation')
-  
-    Array.prototype.slice.call(forms)
-      .forEach(function (form) {
-        form.addEventListener('submit', function (event) {
-          if (!form.checkValidity()) {
-            event.preventDefault()
-            event.stopPropagation()
-          }
-  
-          form.classList.add('was-validated')
-        }, false)
-      })
-  })()

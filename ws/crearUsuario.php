@@ -22,5 +22,3 @@ fwrite($archivo, "sexo:".$usuario->sexo.PHP_EOL);
 fclose($archivo);
 
 echo json_encode($usuario);
-
-
