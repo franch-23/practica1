@@ -1,1 +1,2 @@
 <?php
+use models\Singleton;
