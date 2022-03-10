@@ -1,6 +1,6 @@
 <?php
-require __DIR__ . '/../vendor/autoload.php';
-use Model\Singleton;
+
+use models\Singleton;
 
 try {
     $singleton=Singleton::getInstance();
